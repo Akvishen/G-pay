@@ -15,7 +15,7 @@ export default function Types() {
   return (
     <div className={classes.root}>
       <Typography variant="overline" display="block" gutterBottom>
-        Made by <a href="https://nikhilsahu.me/"> Nikhil Sahu</a>
+        Made by <a href="https://github.com/Akvishen"> Abhishek vishen</a>
       </Typography>
     </div>
   );

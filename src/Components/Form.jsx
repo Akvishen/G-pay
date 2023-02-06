@@ -1,4 +1,6 @@
 import React from "react";
+import img from '../assets/icon.png'
+
 import { makeStyles } from "@material-ui/core/styles";
 import Stepper from "@material-ui/core/Stepper";
 import Step from "@material-ui/core/Step";
@@ -111,10 +113,10 @@ export default function Form() {
     <div className={classes.root}>
       <Grid container direction="row" justify="center" alignItems="center">
         <Grid item xs={12}>
-          <AppBar position="static" style={{ background: "#2E3B55" }}>
+          <AppBar position="static" style={{ background: "black" }}>
             <Toolbar>
               <img
-                src="https://nikhilsahu.me/favicon.png"
+                src={img}
                 alt="logo"
                 style={{ height: 30 }}
                 className={classes.logo}
@@ -127,14 +129,14 @@ export default function Form() {
                   paddingRight: "30px",
                 }}
               >
-                N Pay
+                G Pay
               </Typography>
               <IconButton
                 edge="end"
                 color="inherit"
                 style={{ alignSelf: "end" }}
               >
-                <Avatar>NS</Avatar>
+                <Avatar>AKV</Avatar>
               </IconButton>
             </Toolbar>
           </AppBar>
@@ -151,12 +153,12 @@ export default function Form() {
                 <Grid item xs={12}>
                   <AppBar
                     position="static"
-                    style={{ background: "#2E3B55", alignItems: "center" }}
+                    style={{ background: "lightblue", alignItems: "center" }}
                   >
                     <Toolbar>
                       <img
-                        src="https://nikhilsahu.me/favicon.png"
-                        style={{ height: 30 }}
+                        src={img}
+                        style={{ height: 50 }}
                         alt="logo"
                         className={classes.logo}
                       />
