@@ -6,8 +6,5 @@
      - > npm install
      - > npm start
  ## Demo
- 
- ![](./demo.gif)
- 
  ## Author 
  # Abhishek kumar vishen https://github.com/Akvishen
